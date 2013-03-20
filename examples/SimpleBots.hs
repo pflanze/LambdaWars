@@ -19,7 +19,7 @@ searchAndFire = do
 runInCircle :: Bot a
 runInCircle = do
   cmdAccelerate 1
-  cmdTurn 5
+  cmdTurn 1
   runInCircle
   
   
