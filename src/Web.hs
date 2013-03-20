@@ -4,6 +4,8 @@
             , MultiParamTypeClasses
             , GeneralizedNewtypeDeriving #-}
 
+module Web where
+
 import Control.Applicative ((<|>))
 import Control.Concurrent (forkIO, newChan, Chan, writeChan)
 import Control.Monad.Trans (liftIO)
