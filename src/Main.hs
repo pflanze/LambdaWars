@@ -29,5 +29,5 @@ main = do
 	withServerDo $ \broadcast -> do
 		putStrLn "Web server up and running"
                 gen <- getStdGen
-		let bots = [rammingBot, searchAndFire, searchAndFire]
+                let bots = [rammingBot, searchAndFire, searchAndFire, runInCircle]
                   in serverLoop (newWorld gen bots) broadcast
