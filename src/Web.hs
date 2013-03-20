@@ -1,4 +1,8 @@
-{-# LANGUAGE OverloadedStrings #-}
+{-# LANGUAGE OverloadedStrings
+            , TypeSynonymInstances
+            , FlexibleInstances
+            , MultiParamTypeClasses
+            , GeneralizedNewtypeDeriving #-}
 
 import Control.Applicative ((<|>))
 import Control.Concurrent (forkIO, newChan, Chan, writeChan)
