@@ -1,3 +1,8 @@
+{-# LANGUAGE OverloadedStrings
+            , TypeSynonymInstances
+            , FlexibleInstances
+            , MultiParamTypeClasses
+            , GeneralizedNewtypeDeriving #-}
 module Main where
 
 import Core
