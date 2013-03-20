@@ -1,4 +1,4 @@
-module Web (withServerDo, Broadcaster) where
+{-# LANGUAGE OverloadedStrings #-}
 
 import Control.Applicative ((<|>))
 import Control.Concurrent (forkIO, newChan, Chan, writeChan)
